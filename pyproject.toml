@@ -1,7 +1,7 @@
 [project]
-name = "zomato-data-engineering-ai-project"
+name = "zomato-data-engineering-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Zomato Data Engineering Pipeline with Airflow, dbt, and Snowflake"
 readme = "README.md"
 authors = [
     { name = "Tanay Jujarao", email = "tanayjujarao@gmail.com" }
@@ -14,9 +14,6 @@ dependencies = [
     "python-dotenv>=1.2.3",
     "snowflake-connector-python>=4.7.2",
 ]
-
-[project.scripts]
-zomato-data-engineering-ai-project = "zomato_data_engineering_ai_project:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
