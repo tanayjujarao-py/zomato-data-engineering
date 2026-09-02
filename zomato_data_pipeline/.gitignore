@@ -1,0 +1,43 @@
+# Environment variables and credentials
+.env
+*.env
+profiles.yml
+
+# Virtual Environments
+.venv/
+dbt-env/
+venv/
+ENV/
+
+# Airflow logs and database
+airflow/logs/
+airflow/*.db
+airflow/*.pid
+logs/
+
+# dbt artifacts
+zomato_data_pipeline/target/
+zomato_data_pipeline/dbt_packages/
+zomato_data_pipeline/logs/
+target/
+dbt_packages/
+
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Raw/Local Data files
+data/
+*.csv
+*.parquet
+*.json
+!config.json
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
