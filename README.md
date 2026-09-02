@@ -47,7 +47,6 @@ This project simulates a real-world food delivery company's data stack. Raw dime
 ├── airflow/                     # Airflow 3 on Docker
 │   ├── Dockerfile               #   Snowflake provider, dbt in its own venv
 │   ├── docker-compose.yaml      #   postgres + api-server + scheduler
-│   ├── example.env              #   template for SNOWFLAKE_* credentials
 │   └── dags/zomato_batch.py     #   the pipeline DAG (2 tasks)
 │
 ├── zomato/                      # dbt project
